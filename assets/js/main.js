@@ -50,18 +50,18 @@
   /**
    * Toggle .header-scrolled class to #header when page is scrolled
    */
-  //!desde aqui let selectHeader = select("#header");
-  // if (selectHeader) {
-  //   const headerScrolled = () => {
-  //     if (window.scrollY > 10) {
-  //       selectHeader.classList.add("header-scrolled");
-  //     } else {
-  //       selectHeader.classList.remove("header-scrolled");
-  //     }
-  //   };
-  //   window.addEventListener("load", headerScrolled);
-  //   onscroll(document, headerScrolled);
-  // }
+  let selectHeader = select("#header");
+  if (selectHeader) {
+    const headerScrolled = () => {
+      if (window.scrollY > 10) {
+        selectHeader.classList.add("header-scrolled");
+      } else {
+        selectHeader.classList.remove("header-scrolled");
+      }
+    };
+    window.addEventListener("load", headerScrolled);
+    onscroll(document, headerScrolled);
+  }
 
   /**
    * Back to top button
