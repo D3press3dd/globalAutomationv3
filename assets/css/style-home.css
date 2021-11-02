@@ -319,7 +319,7 @@ h6 {
   overflow: hidden;
   padding: 160px 0 250px 0;
   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-    url(/assets/img/arm/arm-01.jpg);
+    url(../img/arm/arm-01.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
